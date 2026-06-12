@@ -15,8 +15,40 @@
 
 # como fazer este exercicio sem usar if else ???????
 
-salario = float(input("Digite o salário: R$ "))
-if salario >1200 and True:
-    print ("pagar imposto!")
-else:
-    print ("nao pagar imposto")
+# salario = float(input("Digite o salário: R$ "))
+# if salario >1200 and True:
+#     print ("pagar imposto!")
+# else:
+#     print ("nao pagar imposto")
+
+
+# 3.5 calcule o resultado da expressao A>B and C or D 
+
+# a= 1
+# b= 2
+# c= True
+# d = False
+# print (a>b and c or d)
+
+# a= 10
+# b= 3
+# d= False
+# d= True
+# print(a>b and c or d)
+
+# a= 5 
+# b=1
+# c=True
+# d= True
+# print(a>b and c or d)
+
+
+#3.6 decidir se um aluno foi aprovado ou não.  Para ser aprovado todas as medias do aluna devem ser 7.  O aluno cursa 3 materias. 
+
+materia1=5
+materia2 =8
+materia3 =7 
+
+print(materia1 > 7 and materia2 > 7 and materia3 > 7)
+
+
